@@ -1,0 +1,9 @@
+
+>>> import hashlib
+>>> content = open(r"YOURFILE","rb").read()
+>>> print hashlib.md5(content).hexdigest()
+6e4e030fbd2ee786e1b6b758d5897316
+>>> print hashlib.sha256(content).hexdigest()
+01636faaae739655bf88b39d21834b7dac923386d2b52efb4142cb278061f97f
+>>> print hashlib.sha1(content).hexdigest()
+625644bacf83a889038e4a283d29204edc0e9b65
